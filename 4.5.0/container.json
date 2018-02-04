@@ -1,0 +1,12 @@
+{
+	"project": "wplib",
+	"name": "adminer",
+	"version": "4.5.0",
+	"majorversion": "4.5",
+	"latest": "1",
+	"ports": "-p 8081:8080",
+	"volumes": "",
+	"args": "",
+	"env": "ADMINER-VERSION"
+}
+
