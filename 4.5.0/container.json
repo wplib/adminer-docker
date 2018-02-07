@@ -7,7 +7,7 @@
 	"network": "--network wplibbox",
 	"ports": "-p 8081:8080",
 	"volumes": "",
-	"restart": "--restart unless-stopped",
+	"restart": "--restart no",
 	"args": "",
 	"env": "ADMINER_VERSION"
 }
