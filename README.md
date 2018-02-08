@@ -39,22 +39,27 @@ A simple `docker pull wplib/adminer` will pull down the latest version.
 
 ### Runtime from Docker Hub
 start - Spin up a Docker container with the correct runtime configs.
+
 `docker run -d --name adminer-4.5.0 --restart unless-stopped --network wplibbox -p 8081:8080  wplib/adminer:4.5.0`
 
 
 stop - Stop a Docker container.
+
 `docker stop adminer-4.5.0`
 
 
 run - Run a Docker container in the foreground, (all STDOUT and STDERR will go to console). The Container be removed on termination.
+
 `docker run --rm --name adminer-4.5.0 --network wplibbox -p 8081:8080  wplib/adminer:4.5.0`
 
 
 shell - Run a shell, (/bin/bash), within a Docker container.
+
 `docker run --rm --name adminer-4.5.0 -i -t --network wplibbox -p 8081:8080  wplib/adminer:4.5.0 /bin/bash`
 
 
 rm - Remove the Docker container.
+
 `docker container rm adminer-4.5.0`
 
 
