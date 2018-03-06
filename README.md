@@ -12,12 +12,12 @@
 
 # Adminer Docker Container for WPLib Box
 This is the repository for the [Adminer](https://www.adminer.org/) Docker container implemented for [WPLib-Box](https://github.com/wplib/wplib-box).
-It currently provides versions 4.5.0 4.6.1
+It currently provides versions 4.5.0 4.6.2
 
 
 ## Supported tags and respective Dockerfiles
 
-`4.6.1`, `latest` _([4.6.1/Dockerfile](https://github.com/wplib/adminer-docker/blob/master/4.6.1/Dockerfile))_
+`4.6.2`, `latest` _([4.6.2/Dockerfile](https://github.com/wplib/adminer-docker/blob/master/4.6.2/Dockerfile))_
 
 `4.5.0` _([4.5.0/Dockerfile](https://github.com/wplib/adminer-docker/blob/master/4.5.0/Dockerfile))_
 
@@ -42,23 +42,23 @@ A simple `docker pull wplib/adminer` will pull down the latest version.
 ### Runtime from Docker Hub
 start - Spin up a Docker container with the correct runtime configs.
 
-`docker run -d --name adminer-4.6.1 --restart unless-stopped --network wplibbox -p 8081:8080  wplib/adminer:4.6.1`
+`docker run -d --name adminer-4.6.2 --restart unless-stopped --network wplibbox -p 8081:8080  wplib/adminer:4.6.2`
 
 stop - Stop a Docker container.
 
-`docker stop adminer-4.6.1`
+`docker stop adminer-4.6.2`
 
 run - Run a Docker container in the foreground, (all STDOUT and STDERR will go to console). The Container be removed on termination.
 
-`docker run --rm --name adminer-4.6.1 --network wplibbox -p 8081:8080  wplib/adminer:4.6.1`
+`docker run --rm --name adminer-4.6.2 --network wplibbox -p 8081:8080  wplib/adminer:4.6.2`
 
 shell - Run a shell, (/bin/bash), within a Docker container.
 
-`docker run --rm --name adminer-4.6.1 -i -t --network wplibbox -p 8081:8080  wplib/adminer:4.6.1 /bin/bash`
+`docker run --rm --name adminer-4.6.2 -i -t --network wplibbox -p 8081:8080  wplib/adminer:4.6.2 /bin/bash`
 
 rm - Remove the Docker container.
 
-`docker container rm adminer-4.6.1`
+`docker container rm adminer-4.6.2`
 
 
 ## Using it from GitHub repo

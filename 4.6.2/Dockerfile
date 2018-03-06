@@ -1,4 +1,4 @@
-FROM adminer:4.6.1
+FROM adminer:4.6.2
 MAINTAINER WPLib Team <team@wplib.org>
 
 USER root

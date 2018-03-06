@@ -1,7 +1,7 @@
 {
 	"project": "wplib",
 	"name": "adminer",
-	"version": "4.6.1",
+	"version": "4.6.2",
 	"majorversion": "4.6",
 	"latest": "1",
 	"class": "admin",
