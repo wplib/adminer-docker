@@ -6,6 +6,7 @@ USER root
 RUN apk update && \
 	apk add --no-cache bash shadow
 
+COPY container.json /etc/container.json
 COPY files /
 
 USER	adminer
