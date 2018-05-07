@@ -1,3 +1,6 @@
+![Adminer 4.6.x](https://img.shields.io/badge/Adminer-4.6.x-green.svg)
+![Adminer 4.5.x](https://img.shields.io/badge/Adminer-4.5.x-green.svg)
+
 ```
  __          _______  _      _ _       ____
  \ \        / /  __ \| |    (_) |     |  _ \
@@ -17,9 +20,9 @@ It currently provides versions 4.5.0 4.6.2
 
 ## Supported tags and respective Dockerfiles
 
-`4.6.2`, `latest` _([4.6.2/Dockerfile](https://github.com/wplib/adminer-docker/blob/master/4.6.2/Dockerfile))_
+`4.6.2`, `4.6`, `latest` _([4.6.2/Dockerfile](https://github.com/wplib/adminer-docker/blob/master/4.6.2/Dockerfile))_
 
-`4.5.0` _([4.5.0/Dockerfile](https://github.com/wplib/adminer-docker/blob/master/4.5.0/Dockerfile))_
+`4.5.0`, `4.5` _([4.5.0/Dockerfile](https://github.com/wplib/adminer-docker/blob/master/4.5.0/Dockerfile))_
 
 
 ## Using this container.
