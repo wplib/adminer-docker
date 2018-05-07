@@ -15,7 +15,7 @@
 
 # Adminer Docker Container for WPLib Box
 This is the repository for the [Adminer](https://www.adminer.org/) Docker container implemented for [WPLib-Box](https://github.com/wplib/wplib-box).
-It currently provides versions 4.5.0 4.6.2
+It currently provides versions 4.5.x 4.6.x
 
 
 ## Supported tags and respective Dockerfiles
